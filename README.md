@@ -1,6 +1,18 @@
-Agenda telefónica - Entrega
+Autor:
+Andrew Valenzuela
 
-Instrucciones rápidas:
+Proyecto:
+Guía Práctica 01 - Agenda Telefónica en C#
+
+Asignatura:
+Estructura de Datos
+
+Carrera:
+Tecnologías de la Información
+
+Universidad:
+Universidad Estatal Amazónica (UEA)
+
 
 1. Compilar:
 
