@@ -13,33 +13,47 @@ Tecnologías de la Información
 Universidad:
 Universidad Estatal Amazónica (UEA)
 
+```
+GuiaPractica01-AgendaTelefonica-CSharp/
+├── codigo/              # Código fuente (.cs)
+│   ├── Program.cs
+│   ├── Agenda.cs
+│   ├── Contacto.cs
+│   └── Estadisticas.cs
+├── base/                # Archivos de configuración y documentación
+│   ├── Agenda.csproj
+│   ├── README.md
+│   └── ANALISIS.md
+├── compilado/           # Archivos compilados (.exe, .dll)
+│   ├── Agenda.exe
+│   └── Agenda.dll
+└── .gitignore
+```
 
-1. Compilar:
+## Compilar y Ejecutar
 
 ```bash
 dotnet build
-```
-
-2. Ejecutar:
-
-```bash
 dotnet run
 ```
 
-Agente de IA usado:
+## Funcionalidades
+
+1. Agregar contacto
+2. Listar contactos
+3. Buscar contacto por nombre
+4. Registrar llamadas por mes
+5. Ver estadísticas de llamadas
+6. Ver top contactos por cantidad de llamadas
+
+## Requisitos
+
+- .NET 8.0 SDK
+
+## Agente de IA Usado
+
 - **Agente**: GitHub Copilot
 - **Porcentaje de código**: 20% (revisión y ayuda en compilación del proyecto)
 
-Funciones principales:
-- Agregar contacto (con ID autoincremental opcional)
-- Listar contactos
-- Buscar contacto por nombre
-- Registrar llamadas por mes
-- Ver estadísticas de llamadas
-- Ver top contactos por cantidad de llamadas
+Para más detalles, ver `base/README.md` y `base/ANALISIS.md`.
 
-Archivos importantes:
-- `Program.cs`, `Agenda.cs`, `Contacto.cs`, `Estadisticas.cs`
-- `ANALISIS.md` (análisis de estructuras utilizadas)
-
-*** End Patch
